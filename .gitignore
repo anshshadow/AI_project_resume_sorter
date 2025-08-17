@@ -1,0 +1,58 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# SQLite database
+*.sqlite3
+
+# Django migrations
+resume-screener-main/api/migrations/*.pyc
+resume-screener-main/api/migrations/__pycache__/
+
+# VS Code
+.vscode/
+
+# Misc
+*.swp
+*.swo
+
+# Ignore frontend build
+resume-screener-frontend/build/
+
+# Ignore backend test db
+resume-screener-main/db.sqlite3
+
+# Ignore coverage reports
+coverage/
+*.cover
+
+# Ignore static files (if any)
+static/
+media/
+
+# Ignore environment files
+.env*
+
+# Ignore package-lock
+package-lock.json
+
+# Ignore yarn lock
+yarn.lock
