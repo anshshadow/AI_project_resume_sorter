@@ -1,0 +1,9 @@
+Django
+djangorestframework
+djangorestframework-simplejwt
+django-cors-headers
+PyPDF2
+python-docx
+sentence-transformers
+torch
+scikit-learn
